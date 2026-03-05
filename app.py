@@ -39,9 +39,16 @@ def home():
     return render_template("index.html")
 
 @app.route("/get", methods=["POST"])
-def get_bot_response():
-    user_text = request.form["msg"]
-    return chatbot_response(user_text)
+def chatbot_response():
+    sentence = request.form.get("msg")
 
+    if not sentence:
+        return "Please enter a message."
+
+    sentence = sentence.lower()
+
+    response = chatbot_response(sentence)
+    return response
 if __name__ == "__main__":
     app.run(debug=True)
+    
