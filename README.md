@@ -1,30 +1,49 @@
 🤖 AI Chatbot Web Application
-📌 Overview
+📌 Abstract
 
-This project is a web-based AI chatbot developed using Python and Flask. It provides instant responses to user queries using a retrieval-based Natural Language Processing (NLP) approach. The chatbot is designed for easy integration into websites and can be used for customer support, FAQs, and basic conversational tasks.
+This project presents a web-based AI chatbot developed using the Flask framework and Natural Language Processing (NLP) techniques. The chatbot processes user queries and provides relevant responses using a retrieval-based approach. It is designed to be lightweight, scalable, and easily deployable for real-world applications such as customer support and information systems.
 
-🚀 Features
+🎯 Objectives
 
-💬 Real-time chat interface
+To design an AI-powered chatbot capable of handling user queries
 
-⚡ Instant response generation
+To implement NLP techniques for text processing
 
-🧠 NLP-based input processing using NLTK
+To develop a web-based interface for real-time interaction
 
-🔍 Pattern matching for accurate replies
+To ensure scalability and ease of deployment
 
-🌐 Web-based deployment using Flask
+🚀 Key Features
 
-🎯 Lightweight and easy to scale
+Real-time conversational interface
 
-🛠️ Technologies Used
+NLP-based text preprocessing using NLTK
 
-Python – Backend logic
+Pattern-based response generation
 
-Flask – Web framework
+Lightweight and modular architecture
 
-NLTK – Natural Language Processing
+Seamless integration with web applications
 
-HTML, CSS, JavaScript – Frontend
+🏗️ System Architecture
 
-JSON – Data storage for chatbot intents
+The system follows a client-server architecture:
+
+Frontend (Client Side):
+Developed using HTML, CSS, and JavaScript to provide an interactive user interface.
+
+Backend (Server Side):
+Implemented using Flask, handling user requests and generating responses.
+
+Processing Layer:
+Utilizes NLTK for tokenization and pattern matching.
+
+Data Layer:
+JSON-based storage (intents.json) for predefined patterns and responses.
+
+🛠️ Technology Stack
+Component	Technology Used
+Backend	Python, Flask
+NLP Processing	NLTK
+Frontend	HTML, CSS, JavaScript
+Data Storage	JSON
