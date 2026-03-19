@@ -1,4 +1,5 @@
 🤖 AI Chatbot Web Application
+
 📌 Abstract
 
 This project presents a web-based AI chatbot developed using the Flask framework and Natural Language Processing (NLP) techniques. The chatbot processes user queries and provides relevant responses using a retrieval-based approach. It is designed to be lightweight, scalable, and easily deployable for real-world applications such as customer support and information systems.
